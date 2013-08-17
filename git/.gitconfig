@@ -1,0 +1,9 @@
+[user]
+	name = Ender Dai
+	email = xdai@uoregon.edu
+[core]
+	editor = vim
+[color]
+	ui = true
+[push]
+	default = simple
