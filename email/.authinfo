@@ -1,0 +1,4 @@
+machine imap.uoregon.edu login xdai password blurred
+machine mail.cs.uoregon.edu login ender password blurred
+machine aciss.uoregon.edu login xdai password blurred
+machine ix.cs.uoregon.edu login ender password blurred

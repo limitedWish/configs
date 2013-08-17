@@ -1,0 +1,18 @@
+MAILDIR=$HOME/.procmail_spool
+DEFAULT=others.spool
+
+:0:
+* ^(To|Cc|Bcc):.*(tau-bugs|tau-team)@cs\.uoregon\.edu
+tau-list.spool
+
+:0:
+* ^(From|To|Cc|Bcc):(.*xdai@uoregon\.edu|.*ender@cs\.uoregon\.edu)
+personal.spool
+
+:0:
+* ^(To|Cc|Bcc):.*grads-mail@cs.uoregon.edu
+grads-mail.spool
+
+:0:
+* ^From:.*fubles@fubles.com
+spam.spool
